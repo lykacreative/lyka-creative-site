@@ -1,0 +1,256 @@
+{
+  "navbar": {
+    "logo": "LYKA CREATIVE",
+    "links": [
+      { "label": "Home", "href": "#" },
+      { "label": "About", "href": "#about" },
+      { "label": "Work", "href": "#work" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "darkModeBtn": "Dark Mode"
+  },
+  "hero": {
+    "badgeText": "AVAILABLE FOR PROJECTS",
+    "headlineMain": "We craft stories.",
+    "headlineSub": "You build brands.",
+    "description": "We provide video editing and managerial services for skincare brands, social media, and beyond.",
+    "videoUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260510_060007_60275ce7-030c-4668-a160-8f364ec537d3.mp4",
+    "ctaWorkText": "View our work",
+    "ctaContactText": "Get in touch"
+  },
+  "heroEffect": {
+    "title": "Aesthetic Social UGC",
+    "frames": [
+      {
+        "id": "frame-1",
+        "type": "Reels",
+        "title": "Morning Radiance Routine ✨",
+        "creator": "@lyka.skin",
+        "videoUrl": "/reels/vid1.mp4",
+        "likes": "142K",
+        "comments": "892",
+        "shares": "12.4K",
+        "depth": 0.45,
+        "tiltMultiplier": 10,
+        "scale": 0.75,
+        "zIndex": 5,
+        "position": { "left": "3%", "top": "32%" }
+      },
+      {
+        "id": "frame-4",
+        "type": "Reels",
+        "title": "Liquid Gold Glass Glow",
+        "creator": "@lyka.beauty",
+        "videoUrl": "/reels/vid2.mp4",
+        "likes": "63.2K",
+        "comments": "415",
+        "shares": "4.2K",
+        "depth": 0.5,
+        "tiltMultiplier": 12,
+        "scale": 0.8,
+        "zIndex": 10,
+        "position": { "left": "78%", "top": "10%" }
+      }
+    ]
+  },
+  "performanceText": {
+    "badge": "POWERED BY LYKA CREATIVE",
+    "titleMain": "We turn ad spend",
+    "titleItalic": "into scalable growth.",
+    "description": "Scroll-stopping UGC that drives performance. Lower CPA. Higher ROAS. Stronger growth."
+  },
+  "performanceGraph": {
+    "chartData": [
+      { "name": "Week 1", "spend": 10, "roas": 1.5, "annotation": null },
+      { "name": "Week 2", "spend": 15, "roas": 2.1, "annotation": null },
+      {
+        "name": "Week 3",
+        "spend": 23,
+        "roas": 3.0,
+        "annotation": "UGC testing launch"
+      },
+      { "name": "Week 4", "spend": 31, "roas": 3.5, "annotation": null },
+      { "name": "Week 5", "spend": 36, "roas": 4.1, "annotation": null },
+      {
+        "name": "Week 6",
+        "spend": 40,
+        "roas": 4.5,
+        "annotation": "Top UGC creatives scale"
+      },
+      { "name": "Week 7", "spend": 50, "roas": 5.0, "annotation": null },
+      {
+        "name": "Week 8",
+        "spend": 62,
+        "roas": 6.2,
+        "annotation": "Sustained growth lower CPA"
+      }
+    ],
+    "cpaData": [
+      { "name": "W1", "value": 30 },
+      { "name": "W2", "value": 28 },
+      { "name": "W3", "value": 25 },
+      { "name": "W4", "value": 24 },
+      { "name": "W5", "value": 20 },
+      { "name": "W6", "value": 16 },
+      { "name": "W7", "value": 14 },
+      { "name": "W8", "value": 12 }
+    ],
+    "convData": [
+      { "name": "W1", "value": 1.2 },
+      { "name": "W2", "value": 1.5 },
+      { "name": "W3", "value": 1.8 },
+      { "name": "W4", "value": 2.2 },
+      { "name": "W5", "value": 2.6 },
+      { "name": "W6", "value": 2.5 },
+      { "name": "W7", "value": 2.9 },
+      { "name": "W8", "value": 3.2 }
+    ],
+    "mainCard": {
+      "title": "Ad Spend vs. ROAS",
+      "badge": "Powered by Lyka Creative",
+      "metrics": [
+        { "label": "ROAS", "value": "4.6x", "change": "↑ 214% vs previous" },
+        {
+          "label": "Revenue",
+          "value": "$1.48M",
+          "change": "↑ 178% vs previous"
+        },
+        { "label": "CPA", "value": "$18.21", "change": "↓ 29% vs previous" }
+      ]
+    },
+    "cpaCard": {
+      "title": "CPA",
+      "subtitle": "Cost Per Acquisition",
+      "value": "$18.21",
+      "change": "↓ 29% vs previous 8 weeks"
+    },
+    "convCard": {
+      "title": "Conversion Rate",
+      "subtitle": "Conversion Percentage",
+      "value": "3.2%",
+      "change": "↑ 47% vs previous 8 weeks"
+    }
+  },
+  "textAfterGraph": {
+    "features": [
+      {
+        "title": "Scroll-Stopping UGC",
+        "desc": "Attention-first creatives that hook and convert."
+      },
+      {
+        "title": "Higher ROAS",
+        "desc": "Better creatives = more revenue from the same spend."
+      },
+      {
+        "title": "Lower CPA",
+        "desc": "More efficient campaigns that scale profitably."
+      },
+      {
+        "title": "Scalable Growth",
+        "desc": "Proven system to test, scale, and grow."
+      }
+    ]
+  },
+  "aboutAndProjects": {
+    "about": {
+      "badge": "ABOUT",
+      "title": "I breathe life into moving pictures",
+      "paragraphs": [
+        "With over six years of experience in video editing and motion design, I have worked with brands, agencies, and independent creators to bring their visions to life.",
+        "Every cut, color, and transition serves the story. Whether it is a music video, brand film, or social campaign, I bring the same level of craft to every frame."
+      ],
+      "ctaText": "More about me"
+    },
+    "projects": {
+      "badge": "SELECTED WORK",
+      "viewAllText": "View all",
+      "list": [
+        {
+          "type": "CLIENT",
+          "title": "Biruhfit",
+          "desc": "A cinematic music video blending surreal visuals with live-action footage.",
+          "tags": ["COLOR GRADING", "VFX"]
+        },
+        {
+          "type": "PERSONAL",
+          "title": "Bricks",
+          "desc": "A dynamic brand identity system with animated logos and typography.",
+          "tags": ["LOGO ANIMATION", "BRAND GUIDELINES"]
+        },
+        {
+          "type": "CLIENT",
+          "title": "Addisai",
+          "desc": "A short documentary exploring identity through archival footage and interviews.",
+          "tags": ["EDITING", "SOUND DESIGN"]
+        }
+      ]
+    }
+  },
+  "testimonials": {
+    "badge": "TESTIMONIALS",
+    "title": "Kind words",
+    "list": [
+      {
+        "quote": "Abrham understood everything extremely well, He wasn't just an editor, he truly understood what kind of ads performed for our brand, He consistently took full ownership of his work, which made him someone we could always rely on.",
+        "author": "Elanora",
+        "image": "/testimonials/elanora.png",
+        "initials": "EL"
+      },
+      {
+        "quote": "Overall great work, Abrham goes above and beyond in all the work he touches. He pays great attention to detail and is a constant learner.",
+        "author": "Based Supplies",
+        "image": "/testimonials/based_supplies.png",
+        "initials": "BA"
+      },
+      {
+        "quote": "Working with Abrham completely changed our social presence. In just over a month, we grew from 3K to 7K followers, with multiple videos surpassing 100K views and engagement skyrocketing.",
+        "author": "Biruh Fit",
+        "image": "/testimonials/biruh_fit.png",
+        "initials": "BF"
+      },
+      {
+        "quote": "From the start, Abrham was exactly what we were looking for. The editing quality was top-tier, communication was seamless, and we only wish we had more projects to work on together..",
+        "author": "Addis AI",
+        "image": "/testimonials/addis_ai.png",
+        "initials": "AA"
+      },
+      {
+        "quote": "Working with Abrham has changed my life. It sounds crazy but the spark and momentum I feel with social media can truly be life changing. It all started 30 days ago and we teamed up on a social media project. He literally helped me grow from 0-1600+ followers within these 30 days!!! On top of that, he’s a great, compassionate person and has given great life and motivational advice. He’s the guy. Thank you so much and we’ll stay in touch",
+        "author": "Denny Wang",
+        "image": "/testimonials/denny_wang.png",
+        "initials": "DW"
+      }
+    ]
+  },
+  "footerCta": {
+    "icon": "waving_hand",
+    "title": "Have a project in mind?",
+    "description": "Whether it is a music video, brand film, or social campaign — let us make something great together.",
+    "buttonText": "Start a conversation"
+  },
+  "footer": {
+    "title": "LYKA CREATIVE.",
+    "description": "Video editing & motion design crafted with intention.",
+    "copyright": "© 2026 Lyka.",
+    "builtWith": "Designed & built with care",
+    "columns": [
+      {
+        "title": "PAGES",
+        "links": [
+          { "label": "Home", "href": "#" },
+          { "label": "About", "href": "#about" },
+          { "label": "Work", "href": "#work" },
+          { "label": "Contact", "href": "#contact" }
+        ]
+      },
+      {
+        "title": "SOCIAL",
+        "links": [
+          { "label": "Instagram", "href": "https://www.instagram.com/lykacreative" },
+          { "label": "YouTube", "href": "https://www.youtube.com/@lykacreative" },
+          { "label": "Pinterest", "href": "https://www.pinterest.com/lykacreative" }
+        ]
+      }
+    ]
+  }
+}
