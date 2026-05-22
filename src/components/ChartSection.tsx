@@ -77,7 +77,7 @@ export default function ChartSection() {
   }, []);
 
   return (
-    <section className="relative w-full bg-black text-white py-24 flex flex-col items-center overflow-hidden">
+    <section className="relative w-full bg-black text-white py-12 md:py-24 flex flex-col items-center overflow-hidden">
       {/* Cosmic Nebula Background Layer - Performance/Emerald Theme */}
       <div
         className="absolute inset-0 z-0 pointer-events-none select-none"
@@ -95,7 +95,7 @@ export default function ChartSection() {
       <div className="relative z-10 max-w-[1400px] w-full px-6 flex flex-col items-center xl:items-start text-center xl:text-left">
 
         {/* Heading */}
-        <div className="mb-16 w-full flex flex-col items-center">
+        <div className="mb-8 md:mb-16 w-full flex flex-col items-center">
           <FadeIn y={25}>
             <span className="text-xs uppercase tracking-widest text-[#a6a6a6] mb-4 border border-white/10 px-3 py-1 rounded-full">
               {badge}
@@ -118,7 +118,7 @@ export default function ChartSection() {
         </div>
 
         {/* ── Chart block ── */}
-        <div className="relative w-full h-[600px] md:h-[550px] mt-8 flex items-center justify-center">
+        <div className="relative w-full h-[460px] sm:h-[500px] md:h-[550px] mt-8 flex items-center justify-center">
           {/* Left card: CPA */}
           <div className="hidden lg:flex absolute left-[3%] w-[350px] h-[400px] bg-[#f8f9fa] rounded-3xl z-10 -translate-x-12 opacity-90 scale-95 lg:hover:z-30 lg:hover:scale-100 lg:hover:opacity-100 lg:hover:translate-x-0 transition-all duration-200 lg:hover:duration-500 ease-[cubic-bezier(0.25,0.46,0.45,0.94)] flex-col p-6 text-black shadow-xl shadow-black/50 border border-black/5">
             <h3 className="font-medium text-lg">{cpaCard.title}</h3>
@@ -164,17 +164,17 @@ export default function ChartSection() {
 
           {/* Center main card — observer ref lives here so animation only fires
                when this specific card is 60%+ visible in the viewport */}
-          <div ref={centerCardRef} className="relative z-10 w-full max-w-[850px] h-full sm:h-[500px] bg-[#f8f9fa] rounded-[2rem] shadow-2xl p-6 md:p-8 flex flex-col sm:flex-row text-black border border-black/5">
-            <div className="w-full sm:w-[200px] flex flex-col justify-between pr-4 pb-6 sm:pb-0 sm:border-r border-black/5">
+          <div ref={centerCardRef} className="relative z-10 w-full max-w-[850px] h-full sm:h-[500px] bg-[#f8f9fa] rounded-[2rem] shadow-2xl p-5 sm:p-6 md:p-8 flex flex-col sm:flex-row text-black border border-black/5">
+            <div className="w-full sm:w-[200px] flex flex-col justify-between pr-4 pb-2 sm:pb-0 sm:border-r border-black/5">
               <div>
-                <div className="flex items-center gap-3 mb-6">
+                <div className="flex items-center gap-3 mb-3 sm:mb-6">
                   <h3 className="font-medium text-lg hidden sm:block">{mainCard.title}</h3>
                   <h3 className="font-medium text-lg sm:hidden">Lyka Creative</h3>
                 </div>
                 <span className="hidden sm:inline-block text-[10px] bg-[#E6F4EA] text-[#2F852A] px-2 py-1 rounded-full whitespace-nowrap mb-8 font-medium">
                   {mainCard.badge}
                 </span>
-                <div className="mb-6 flex flex-row sm:flex-col justify-between sm:justify-start">
+                <div className="mb-2 sm:mb-6 flex flex-row sm:flex-col justify-between sm:justify-start">
                   {mainCard.metrics.map((metric, i) => (
                     <div key={metric.label} className={i > 0 ? "flex-1 sm:mt-6 hidden md:block" : "flex-1"}>
                       <p className="text-xs text-black/50 mb-1">{metric.label}</p>
@@ -186,14 +186,14 @@ export default function ChartSection() {
               </div>
             </div>
 
-            <div className="flex-1 h-[300px] sm:h-full w-full sm:-ml-2 pt-8 sm:pt-4">
+            <div className="flex-1 h-[270px] sm:h-full w-full sm:-ml-2 pt-3 sm:pt-4">
               <div className="absolute top-8 right-8 hidden sm:flex items-center gap-4 text-xs font-medium text-black/60">
                 <div className="flex items-center gap-2"><div className="w-4 h-0.5 bg-[#2F852A]" />ROAS</div>
                 <div className="flex items-center gap-2"><div className="w-4 h-0.5 bg-[#4A5568]" />Ad Spend</div>
               </div>
               <div key={`main-${animKey}`} className="w-full h-full pr-0 sm:pr-4 text-xs font-mono">
                 <ResponsiveContainer width="100%" height="100%">
-                  <LineChart data={chartData} margin={{ top: 20, right: isMobile ? 0 : 10, left: isMobile ? -15 : 10, bottom: 0 }}>
+                  <LineChart data={chartData} margin={{ top: isMobile ? 10 : 20, right: isMobile ? 0 : 10, left: isMobile ? -15 : 10, bottom: 0 }}>
                     <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#E2E8F0" />
                     <XAxis dataKey="name" tick={{ fontSize: 10, fill: "#A0AEC0" }} axisLine={false} tickLine={false} dy={10} />
                     <YAxis yAxisId="left" domain={[0, 8]} ticks={[0, 2, 4, 6, 8]} tickFormatter={(val) => `${val}x`} tick={{ fontSize: 10, fill: "#A0AEC0" }} axisLine={false} tickLine={false} width={isMobile ? 24 : 32} dx={isMobile ? -2 : -8} />

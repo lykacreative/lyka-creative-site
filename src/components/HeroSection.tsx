@@ -313,11 +313,7 @@ export default function HeroSection() {
               >
                 {/* Premium Phone framework */}
                 <div
-                  className={`relative h-[460px] w-[220px] rounded-[36px] p-2 bg-[#0c0c0c] border-[5px] transition-all duration-500 overflow-hidden ${
-                    activeIndex === index
-                      ? "border-emerald-500 shadow-[0_0_40px_rgba(16,185,129,0.3)]"
-                      : "border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.65)]"
-                  }`}
+                  className="relative h-[460px] w-[220px] rounded-[36px] p-2 bg-[#0c0c0c] border-[5px] border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.65)] transition-all duration-500 overflow-hidden"
                 >
                   {/* Screen clip */}
                   <div className="relative w-full h-full rounded-[28px] overflow-hidden bg-black select-none">
