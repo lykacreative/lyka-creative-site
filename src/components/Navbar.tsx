@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import portfolioData from "../data/portfolioContent.json";
 
 export default function Navbar() {

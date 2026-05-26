@@ -7,6 +7,7 @@ import AboutProjects from "./components/AboutProjects";
 import Testimonials from "./components/Testimonials";
 import FooterCta from "./components/FooterCta";
 import Footer from "./components/Footer";
+import useSEO from "./hooks/useSEO";
 
 const ChartSection = lazy(() => import("./components/ChartSection"));
 const ProjectsPage = lazy(() => import("./components/ProjectsPage"));
@@ -16,6 +17,9 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default function App() {
   const [currentPath, setCurrentPath] = useState(window.location.pathname);
+
+  // Dynamically synchronize SEO, Open Graph, and Twitter metadata based on route transitions
+  useSEO(currentPath);
 
   useEffect(() => {
     ScrollTrigger.refresh();
